@@ -1,0 +1,89 @@
+body
+{
+	background-color: pink;
+}
+
+#container
+{
+	
+	width: 900px;
+	margin-left:auto;
+	margin-right:auto;
+	color:black;
+	font-size: 24px;
+}
+
+#baner
+{
+	width: 100%;
+	text-align:center;
+	background-color: #08826A;
+	font-family: Verdana;
+	font-size: 20px;
+	height: 60px;
+}
+
+#lewy
+{
+	float:left;
+	background-color:#1E9880;
+	width: 30%;
+	height: 550px;
+}
+
+#prawy
+{
+	float:left;
+	background-color:#9AC8BF;
+	width: 70%;
+	height: 550px;
+	text-align:center;
+}
+
+#stopka
+{
+	clear:both;
+	width: 100%;
+	text-align:right;
+	background-color: #08826A;
+	font-family: Verdana;
+	color: white;
+}
+
+a
+{
+	color:white;
+}
+
+img
+{
+	margin: 20px;
+	padding: 15px;
+	border: 2px dotted #1E9880;
+}
+
+table, th, td
+{
+	margin: 20px;
+	width: 80%;
+	border: 1px solid;
+	border-collapse: collapse;
+}
+
+th
+{
+	background-color: #1E9880;
+	width: 50%;
+}
+
+td
+{
+	text-align: right;
+	width: 50%;
+}
+
+tr:hover
+{
+	color: white;
+	background-color: green;
+}
